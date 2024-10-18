@@ -1,0 +1,30 @@
+{
+  "name": "aipowered-codegen",
+  "version": "1.0.6",
+  "description": "A code snippet generator using the Gemini API.",
+  "main": "src/index.js",
+  "bin": {
+    "codegen": "./index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "code",
+    "generator",
+    "AI",
+    "npm"
+  ],
+  "author": "codegen",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "figlet": "^1.8.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
+
